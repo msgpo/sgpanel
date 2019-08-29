@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/subgraph/sgpanel/js">
+    <file>main.js</file>
+    <file>workspaces.js</file>
+    <file>clock.js</file>
+    <file>status/status.js</file>
+    <file>status/brightness.js</file>
+    <file>status/network.js</file>
+    <file>status/power.js</file>
+    <file>status/volume.js</file>
+  </gresource>
+</gresources>

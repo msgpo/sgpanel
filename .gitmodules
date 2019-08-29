@@ -1,0 +1,3 @@
+[submodule "subprojects/libgnome-volume-control"]
+	path = subprojects/libgnome-volume-control
+	url = https://gitlab.gnome.org/GNOME/libgnome-volume-control
