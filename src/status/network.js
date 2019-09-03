@@ -44,12 +44,12 @@ var NetworkIndicator = class {
     _readDevices() {
         let devices = this._client.get_devices();
         devices.forEach((device) => {
-            this._addDevice(device);
+            this._addDevice(this._client, device);
         });
 
     }
 
-    _addDevice(device) {
+    _addDevice(client, device) {
         if (device._delegate) {
             return;
         }
